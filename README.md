@@ -3,3 +3,6 @@ About 1 in 8 women in the U.S. will develop invasive breast cancer over their li
 
 # Methodology
 In this paper the main focus is on Logistic Regression, XGBoost, LightGBM and Randfom Forrest classifiers to evaluate which model performs given the clinical data for breast cancer patients. LazyClassifier has been utilized to run and assess, several ML classification models and rank them by accuracy score. All the models previously mentioned before had accuracy scores of above 70% which is why they were chosen to see what improvement can be made to the model performance. GridSearch was used to find the best possible Accuracy score and Parameters for each model. XBGBoost improved the most after hyperparameter tuning.
+
+## Dataset
+The dataset used in this paper is the Breast Cancer Gene Expression Profiles (METABRIC) dataset, which contains 31 clinical attributes and 662 genetic attributes which record m-RNA levels and gene mutations for 1,904 patients across 693 total attributes, and can be accessed here. The Molecular Taxonomy of Breast Cancer International Consortium (METABRIC) database is a Canada-UK Project which contains targeted sequencing data of 1,980 primary breast cancer samples the data is also available from the cBioPortal.
